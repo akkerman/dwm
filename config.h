@@ -66,7 +66,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL };
 static const char *roficmd[] = { "rofi", "-show", "drun" };
 static const char *lockcmd[] = { "slock" };
-static const char *browse[] = { "chromium", "--profile-directory=Default" };
+static const char *browse[] = { "chromium", "--profile-directory=Default", NULL };
 static const char *chscreen[] = { "/home/akkerman/.config/rofi/chscreen.sh" };
 
 static Key keys[] = {
