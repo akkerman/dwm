@@ -107,7 +107,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 
 	{ MODKEY, 	            		XK_d,	   spawn,          {.v = roficmd } },
-	{ MODKEY, 	            		XK_m,	   spawn,          {.v = chscreen } },
+	{ MODKEY|ShiftMask,             XK_m,	   spawn,          {.v = chscreen } },
 	{ MODKEY, 	            		XK_g,	   spawn,          {.v = browse } },
 	{ Mod4Mask|Mod1Mask,            XK_l,      spawn,          {.v = lockcmd } },
 };
